@@ -1,0 +1,309 @@
+<!--Structur of an HTML Document-->
+
+<!DOCTYPE html> <!--HTML page always starts with the document type
+     declaration or Doc type.
+This declaration tells the browser what type of document it is.-->
+
+<html><!--This called HTML tag and it reprsents the root of HTML document,
+     it is the container for all other HTML elements.-->
+<head><!--THe head element contains meta data like document title, 
+    character set, styles, links and scripts etc.-->
+    <meta charset="UTF-8"> <!-- meta element is used to specify the metadata
+    to provide browsers and search engines with technical information about
+the web page (In this case it specifies taht the charracter encoding for this
+HTML document is UTF-8 )-->
+<title>
+ My first HTML Page
+</title><!-- This title is visible in the brwoser tab-->
+<style> 
+.planet-picture{
+
+    width: 350px;
+    height: 350px;
+
+}
+.planet-text{
+
+    font-size: 16px;
+    line-height:1.3;
+    margin-bottom: 32px;
+}
+
+</style>
+
+
+</head>
+
+<body style="margin:0; background-color:lightblue;"><!--arguments for 
+background could a code like #f2f6ff or rgb(int,int,int)(black=rgb(0,0,0)) -->
+    <p> This is an HTML paragraph</p>
+    <h1> This is a heading tag</h1>
+
+<!--Adding Heading in web page-->
+<h1> I am a h1 heading</h1>
+<h2> I am a h2 heading</h2>
+<h3> I am a h3 heading</h3>
+<h4> I am a h4 heading</h4>
+<h5> I am a h5 heading</h5>
+<h6> I am a h6 heading</h6>
+<!-- You can have as many heading tags as you want in HTML Doc but
+it is recommended to have one heading 1 to represent the main heading-->
+
+<!--Adding paragraph in web page-->
+<!-- <p> Everybody is a <b>genius</b>.<br/> But if you <i>judge a fish</i> by its ability to climb 
+a tree,<br/> it will live its whole life believing that it is stupid.
+</p> -->
+
+<pre>
+<p> 
+Everybody is a <b>genius</b>.
+But if you <i>judge a fish</i> by its ability to climb a tree, 
+it will live its whole life believing that it is stupid.
+    </p>
+</pre>
+
+<!--Adding images in web page-->
+
+<img  src="https://get.pxhere.com/photo/color-colorful-toy-egg-funny-easter-colored-easter-eggs-happy-easter-818612.jpg"
+ alt="Fröhliche Ostern" width="600" height="360" /><br/>
+
+ <img  src="landschaft.jpg"
+ alt="Fröhliche Ostern" width="600" height="360" />
+ <!--The search engine like google stores all these alternate tags(alt=" ")
+and index them. When one searchs for an image, the search engine tries to
+match th search entry with these indexes/indices and returns the match results.
+ That's why adding an appropriate alternate text is important.-->
+
+ <!-- Creating ordered ans unordered lists-->
+<h1> Planets in Solar System</h1>
+
+<!-- ordered lists-->
+<!-- Alphabetical list-->
+<ol type="A">
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ol>
+<!-- Lowercase Alphabetical list-->
+
+<ol type="a">
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ol>
+
+<!-- Roman Numeral list-->
+<ol type="I">
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ol>
+
+<!-- lowercase Roman Numeral list-->
+<ol type="i">
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ol>
+
+<!-- unordered lists-->
+<!-- Circular Ring lists-->
+<ul style="list-style-type: circle">
+
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ul>
+
+<!-- Square List-->
+<ul style="list-style-type: square">
+
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ul>
+
+<ul style="list-style-type: none">
+
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ul>
+
+<!-- Adding Styles and Formatting HTML elements-->
+
+<h1 style="margin-top:16px; margin-bottom:16px; text-align:center;
+font-size:48px; color:darkblue"> Our Solar System</h1>
+
+<img  src="solar-system-planets.webp" alt="Solar System" style="width: 100%;
+height: 600px;"/>
+<p style="padding:16px; font-size: 24px; line-height:1.5;">The Solar System[c] is the gravitationally bound system of the Sun and
+     the objects that orbit it. It formed 4.6 billion years ago from the
+      gravitational collapse of a giant interstellar molecular cloud.
+       The vast majority (99.86%) of the system's mass is in the Sun,
+        with most of the remaining mass contained in the planet Jupiter. 
+        The planetary system around the Sun contains eight planets.</p>
+
+<p  style="padding:16px; font-size: 24px; line-height:1.5;">The four inner system planets—Mercury, Venus, Earth and Mars—are
+     terrestrial planets, being composed primarily of rock and metal.
+      The four giant planets of the outer system are substantially larger 
+      and more massive than the terrestrials. The two largest, Jupiter and
+       Saturn, are gas giants, being composed mainly of hydrogen and
+        helium; the next two, Uranus and Neptune, are ice giants, 
+        being composed mostly of volatile substances with relatively 
+        high melting points compared with hydrogen and helium, 
+        such as water, ammonia, and methane. All eight planets have 
+        nearly circular orbits that lie near the plane of Earth's orbit,
+         called the ecliptic.</p>
+
+<h3 style="font-size:24px; padding-left:16px;">
+    List of planets in our Solar System
+</h3>
+
+<ul style="font-size:24px;">
+
+    <li>Mercury</li>
+    <li>Venus</li>
+    <li>Earth</li>
+    <li>Mars</li>
+    <li>Jupiter</li>
+    <li>Saturn</li>
+    <li>Uranus</li>
+    <li>Neptune</li>
+    <li>Pluto</li>
+</ul> 
+
+<!--Block and Inline Display Values -->
+
+<div style="background-color: lightblue;">
+
+    <h2>This is a heading</h2>
+    <p>This is another paragraph</p>
+</div>
+<h2 style="background-color: lightcoral;">This is a heading</h2>
+<p style="background-color: lightgreen;">This is another paragraph</p>
+<div style="background-color: blueviolet; padding:12px;">
+<span style="background-color: lightgoldenrodyellow; font-size:24px ; 
+padding:12px;">Home</span>
+<span style="background-color: lightgreen;font-size:24px;
+padding:12px;">Profile</span>
+<span style="background-color: lightpink;font-size:24px ;
+padding:12px;">About</span>
+<span style="background-color: lightcoral;font-size:24px ;
+padding:12px;">Contact</span>
+</div>
+
+<!--Adding group styles using Class attribute-->
+<!--In order to access the class declaration, you have to use the point(.).
+syntax of the declaration:
+The declaration resides in the head inside the style tag like this:
+<style> 
+    .className{
+        hier come the variables like 
+        font-size: 16px;
+    }
+
+    <style/> -->
+<br/>
+<img  class="planet-picture" class="planet-text" src="Jupiter.jpg"/>
+
+<p>
+    Jupiter is the fifth planet from the Sun and the largest in the Solar
+     System. It is a gas giant with a mass more than two and a half times
+      that of all the other planets in the Solar System combined, 
+      and slightly less than one one-thousandth the mass of the Sun.
+       Jupiter is the third brightest natural object in the Earth's night
+        sky after the Moon and Venus, and it has been observed since
+         prehistoric times. It was named after Jupiter, the chief deity 
+         of ancient Roman religion. 
+</p>
+
+<img class="planet-picture" class="planet-text" src="FullMoon.jpg"/>
+
+
+<p>The Moon is Earth's only natural satellite. It is the fifth largest
+     satellite in the Solar System and the largest and most massive 
+     relative to its parent planet,[f] with a diameter about one-quarter
+      that of Earth (comparable to the width of Australia).[16] The Moon 
+      is a planetary-mass object with a differentiated rocky body, 
+      making it a satellite planet under the geophysical definitions of
+       the term and larger than all known dwarf planets of the Solar System.[17] It lacks any significant atmosphere, hydrosphere, or magnetic field. Its surface gravity is about one-sixth of Earth's at 0.1654 g, with Jupiter's moon Io being the only satellite in the Solar System known to have a higher surface gravity and density. </p>
+
+       <img class="planet-picture" class="planet-text" src="The_Blue_Marble.jpg"/>
+       <p>
+        Earth is the third planet from the Sun and the only place known in 
+        the universe where life has originated and found habitability.
+        While Earth may not contain the largest volumes of water in the 
+        Solar System, only Earth sustains liquid surface water, extending 
+        over 70.8% of the Earth with its ocean, making Earth an ocean 
+        world. Earth's polar regions currently retain most of all other 
+        water with large sheets of ice covering ocean and land, dwarfing 
+        Earth's groundwater, lakes, rivers and atmospheric water. Land, 
+        consisting of continents and islands, extends over 29.2% of the 
+        Earth and is widely covered by vegetation. 
+         </p>
+
+         <!-- Adding HyperLinks in a web page-->
+
+         <a href="https://www.youtube.com/channel/UCegRXZFU11R8T-XAMopp_6g" target="_blank"> Here is my Youtube Channel! </a> <!-- _blank is used to open a new browser tab 
+        when the text is clicked.-->
+            <br/>
+        <a href="https://www.youtube.com/channel/UCegRXZFU11R8T-XAMopp_6g"> <img src="youtube-icon.jpg" alt="Link to my Youtube channel!" 
+        width="50px"
+        height="50px"/>  </a>
+</body><!--The body tag contains the content of the document that comprises
+     all the HTML elements used to design the web page for example headings,
+    images, paragraph, lists et cetera.  -->
+    <!--There are two types of tags in HTML namely paired and uppaired, 
+    some tags need a closing and some do not.
+Examples for paired tags like <h1></h1>, <p></p>.
+<Examples for unpaired tags like <img />, <br />.   -->
+
+
+
+</html>
+
+
+
